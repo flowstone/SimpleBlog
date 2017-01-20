@@ -14,6 +14,15 @@ class CategoryController extends Controller{
     }
 
     public function addAction(){
+
+//        if (IS_POST) {
+//
+//            $category_title = I('post.category_title');
+//            echo $category_title;
+////            $m_category = M('category');
+////            $row = $m_category->add()
+//            //
+//        }
         $this->display();
     }
 

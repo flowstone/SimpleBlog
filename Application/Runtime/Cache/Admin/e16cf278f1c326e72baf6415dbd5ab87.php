@@ -23,7 +23,7 @@
 <body class="skin-blue">
 <!-- header logo: style can be found in header.less -->
 <header class="header">
-    <a href="index.html" class="logo">
+    <a href="<?php echo U('/Category/index');?>" class="logo">
         <!-- Add the class icon to your logo image or logo icon to add the margining -->
         泰牛（ITBull）
     </a>
@@ -48,7 +48,7 @@
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header bg-light-blue">
-                            <img src="img/avatar3.png" class="img-circle" alt="User Image" />
+                            <img src="/GitRepository/GitHub/SimpleBlog/Public/Admin/img/avatar3.png" class="img-circle" alt="User Image" />
                             <p>
                                 ITbull - IT培训师
                                 <small>注册于2016年01月01日</small>

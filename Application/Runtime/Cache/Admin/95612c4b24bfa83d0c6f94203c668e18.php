@@ -23,7 +23,7 @@
 <body class="skin-blue">
 <!-- header logo: style can be found in header.less -->
 <header class="header">
-    <a href="index.html" class="logo">
+    <a href="<?php echo U('/Category/index');?>" class="logo">
         <!-- Add the class icon to your logo image or logo icon to add the margining -->
         泰牛（ITBull）
     </a>
@@ -159,7 +159,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="box">
-                    <form action="category_list.html" method="post">
+                    <form action="<?php echo U('Category/list');?>" method="post">
                         <div class="box-header">
                             <h3 class="box-title"></h3>
                             <a href="category_list.html" class="btn btn-default pull-right">分类列表</a>
@@ -168,11 +168,11 @@
                         <div class="box-body">
                             <div class="form-group">
                                 <label for="inputTitle">分类标题</label>
-                                <input type="title" placeholder="标题" id="inputTitle" class="form-control">
+                                <input type="title"  name="category_title" placeholder="标题" id="inputTitle" class="form-control">
                             </div>
                             <div class="form-group">
                                 <label for="inputOrderNumber">排序</label>
-                                <input type="title" placeholder="排序" id="inputOrderNumber" value="100" class="form-control">
+                                <input type="title" name="order_number" placeholder="排序" id="inputOrderNumber" value="" class="form-control">
                             </div>
 
                         </div><!-- /.box-body -->

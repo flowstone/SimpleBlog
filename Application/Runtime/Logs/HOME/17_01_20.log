@@ -1,0 +1,12 @@
+[ 2017-01-20T20:20:17+08:00 ] ::1 /GitRepository/GitHub/SimpleBlog/
+ERR: 非法操作:index
+
+[ 2017-01-20T20:21:37+08:00 ] ::1 /GitRepository/GitHub/SimpleBlog/index.php?a=home
+ERR: 非法操作:home
+
+[ 2017-01-20T20:28:11+08:00 ] ::1 /GitRepository/GitHub/SimpleBlog/
+ERR: 无法加载控制器:Category
+
+[ 2017-01-20T20:31:33+08:00 ] ::1 /GitRepository/GitHub/SimpleBlog/admin
+ERR: 无法加载控制器:Admin
+
